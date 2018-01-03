@@ -87,7 +87,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<!--<div style=\"text-align:center\">\n  <h1>\n    Welcome to {{title}}!\n  </h1>\n  <img width=\"300\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">\n</div>\n<app-word></app-word>\n<a href=\"\">My link 2</a>-->\n<!--<app-book></app-book>-->\n<!--<app-usercomponent></app-usercomponent>-->\n<!--<app-dictionary></app-dictionary>-->\n<!--<app-list-person></app-list-person>-->\n<!--<app-parrent></app-parrent>-->\n<!--<app-ip></app-ip>-->\n<!--<app-weather></app-weather>-->\n<!-- <app-sign-in></app-sign-in> -->\n<!-- <app-sign-up></app-sign-up> -->\n<a routerLink=\"/contact\">Contact</a>\n<a href=\"/detail\">Detail</a>\n<router-outlet></router-outlet>\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<!--<div style=\"text-align:center\">\n  <h1>\n    Welcome to {{title}}!\n  </h1>\n  <img width=\"300\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">\n</div>\n<app-word></app-word>\n<a href=\"\">My link 2</a>-->\n<!--<app-book></app-book>-->\n<!--<app-usercomponent></app-usercomponent>-->\n<!--<app-dictionary></app-dictionary>-->\n<!--<app-list-person></app-list-person>-->\n<!--<app-parrent></app-parrent>-->\n<!--<app-ip></app-ip>-->\n<!--<app-weather></app-weather>-->\n<!-- <app-sign-in></app-sign-in> -->\n<!-- <app-sign-up></app-sign-up> -->\n<!--<a routerLink=\"/contact\">Contact</a>\n<a href=\"/detail\">Detail</a>\n<router-outlet></router-outlet>-->\n<app-layout></app-layout>\n<app-circle></app-circle>\n\n"
 
 /***/ }),
 
@@ -150,12 +150,16 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__sign_in_sign_in_component__ = __webpack_require__("../../../../../src/app/sign-in/sign-in.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__rest_service__ = __webpack_require__("../../../../../src/app/rest.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__sign_up_sign_up_component__ = __webpack_require__("../../../../../src/app/sign-up/sign-up.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__layout_layout_component__ = __webpack_require__("../../../../../src/app/layout/layout.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__circle_circle_component__ = __webpack_require__("../../../../../src/app/circle/circle.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -199,7 +203,9 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_16__ip_component__["a" /* IPComponent */],
                 __WEBPACK_IMPORTED_MODULE_19__weather_weather_component__["a" /* WeatherComponent */],
                 __WEBPACK_IMPORTED_MODULE_20__sign_in_sign_in_component__["a" /* SignInComponent */],
-                __WEBPACK_IMPORTED_MODULE_22__sign_up_sign_up_component__["a" /* SignUpComponent */]
+                __WEBPACK_IMPORTED_MODULE_22__sign_up_sign_up_component__["a" /* SignUpComponent */],
+                __WEBPACK_IMPORTED_MODULE_23__layout_layout_component__["a" /* LayoutComponent */],
+                __WEBPACK_IMPORTED_MODULE_24__circle_circle_component__["a" /* CircleComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -415,6 +421,67 @@ var ChildComponent = (function () {
         __metadata("design:paramtypes", [])
     ], ChildComponent);
     return ChildComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../../../../src/app/circle/circle.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "#circle {\n    width: 50px;\n    height: 50px;\n    border-radius: 25px;\n    background: blue;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n  }", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/circle/circle.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div id=\"circle\"></div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/circle/circle.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CircleComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CircleComponent = (function () {
+    function CircleComponent() {
+    }
+    CircleComponent.prototype.ngOnInit = function () {
+    };
+    CircleComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-circle',
+            template: __webpack_require__("../../../../../src/app/circle/circle.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/circle/circle.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], CircleComponent);
+    return CircleComponent;
 }());
 
 
@@ -772,6 +839,67 @@ var IpService = (function () {
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
     ], IpService);
     return IpService;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../../../../src/app/layout/layout.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".my_layout {\n    text-align:center;\n    background-color: grey;\n    position: fixed;\n    bottom: 0;\n    width: 100%;\n    height: 50px;\n}\n\n.div_1, .div_2, .div_3 {\n    display: inline;\n    height: 100%;\n}\n\n.div_1 {\n    background-color: red;\n    width: 33%;\n    float: left;\n}\n\n.div_3 {\n    background-color: yellow;\n    width: 33%;\n    float: right;\n}\n\n.my_content {\n    margin-left: auto;\n    margin-right: auto;\n    margin-top: 100px;\n    width: 50%;\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/layout/layout.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"my_content\">\n  <div> Hiện tại, mỗi đồng có giá 13.440 USD, giảm hơn 1.000 USD so với phiên giao dịch thứ Sáu tuần trước (29/12) và thấp hơn khoảng 400 USD so với cuối phiên 31/12. Đây là năm đầu tiên kể từ 2015, giá Bitcoin đi xuống trong ngày đầu năm mới.\n    \n    Năm 2016, giá tăng 0,87% đầu năm, chốt năm tăng gấp đôi. Tuy vậy, năm ngoái mới là thời điểm bùng nổ của Bitcoin, với 3,5% trong ngày đầu tiên và hơn 14 lần cả năm.\n  </div>\n  <div>\n    Việc này đã giúp Bitcoin thu hút sự chú ý của nhiều nhà đầu tư và tổ chức tài chính truyền thống. Tháng trước, hai sàn giao dịch hàng đầu thế giới là CME và CBOE đều đã cho phép giao dịch hợp đồng Bitcoin tại đây, giúp tiền ảo này tiến vào phố Wall.\n    \n    Sự phổ biến của Bitcoin cũng khiến hàng loạt tiền ảo khác xuất hiện. Ngoài các đối thủ lớn như  Ethereum, Ripple, Litecoin, việc Bitcoin tách đôi nhiều lần năm ngoái và các đợt ICO (phát hành tiền ảo để huy động vốn) đã khiến số lượng tiền ảo trên thế giới lên tới hơn 1.300 đồng.\n    \n    Dù vậy, Bitcoin vẫn đang là chủ đề gây tranh cãi trên toàn cầu. Nhiều người cho rằng tiền kỹ thuật số này là tương lai của tài chính và tiền tệ thế giới. Trong khi đó, người khác lại gọi đây là \"trò lừa đảo\" hay \"bong bóng của những bong bóng\" và khẳng định Bitcoin sẽ không có kết cục tốt đẹp. Cả CEO của JP Morgan Chase - Jamie Dimon và huyền thoại đầu tư Warren Buffett đều tỏ ra hoài nghi về tiền ảo này.\n    \n    Trong khi đó, trên CNBC, cựu giám đốc quỹ đầu tư Fortress - Michael Novogratz cho rằng đồng tiền này có thể chạm 40.000 USD cuối năm tới. Moas thì khẳng định giá này phải lên 400.000 USD. Sàn Nasdaq còn thông báo kế hoạch tham gia thị trường Bitcoin tương lai trong nửa đầu năm 2018.\n  </div>\n  <div>\n    Việc này đã giúp Bitcoin thu hút sự chú ý của nhiều nhà đầu tư và tổ chức tài chính truyền thống. Tháng trước, hai sàn giao dịch hàng đầu thế giới là CME và CBOE đều đã cho phép giao dịch hợp đồng Bitcoin tại đây, giúp tiền ảo này tiến vào phố Wall.\n    \n    Sự phổ biến của Bitcoin cũng khiến hàng loạt tiền ảo khác xuất hiện. Ngoài các đối thủ lớn như  Ethereum, Ripple, Litecoin, việc Bitcoin tách đôi nhiều lần năm ngoái và các đợt ICO (phát hành tiền ảo để huy động vốn) đã khiến số lượng tiền ảo trên thế giới lên tới hơn 1.300 đồng.\n    \n    Dù vậy, Bitcoin vẫn đang là chủ đề gây tranh cãi trên toàn cầu. Nhiều người cho rằng tiền kỹ thuật số này là tương lai của tài chính và tiền tệ thế giới. Trong khi đó, người khác lại gọi đây là \"trò lừa đảo\" hay \"bong bóng của những bong bóng\" và khẳng định Bitcoin sẽ không có kết cục tốt đẹp. Cả CEO của JP Morgan Chase - Jamie Dimon và huyền thoại đầu tư Warren Buffett đều tỏ ra hoài nghi về tiền ảo này.\n    \n    Trong khi đó, trên CNBC, cựu giám đốc quỹ đầu tư Fortress - Michael Novogratz cho rằng đồng tiền này có thể chạm 40.000 USD cuối năm tới. Moas thì khẳng định giá này phải lên 400.000 USD. Sàn Nasdaq còn thông báo kế hoạch tham gia thị trường Bitcoin tương lai trong nửa đầu năm 2018.\n  </div>\n  <div>\n    Việc này đã giúp Bitcoin thu hút sự chú ý của nhiều nhà đầu tư và tổ chức tài chính truyền thống. Tháng trước, hai sàn giao dịch hàng đầu thế giới là CME và CBOE đều đã cho phép giao dịch hợp đồng Bitcoin tại đây, giúp tiền ảo này tiến vào phố Wall.\n    \n    Sự phổ biến của Bitcoin cũng khiến hàng loạt tiền ảo khác xuất hiện. Ngoài các đối thủ lớn như  Ethereum, Ripple, Litecoin, việc Bitcoin tách đôi nhiều lần năm ngoái và các đợt ICO (phát hành tiền ảo để huy động vốn) đã khiến số lượng tiền ảo trên thế giới lên tới hơn 1.300 đồng.\n    \n    Dù vậy, Bitcoin vẫn đang là chủ đề gây tranh cãi trên toàn cầu. Nhiều người cho rằng tiền kỹ thuật số này là tương lai của tài chính và tiền tệ thế giới. Trong khi đó, người khác lại gọi đây là \"trò lừa đảo\" hay \"bong bóng của những bong bóng\" và khẳng định Bitcoin sẽ không có kết cục tốt đẹp. Cả CEO của JP Morgan Chase - Jamie Dimon và huyền thoại đầu tư Warren Buffett đều tỏ ra hoài nghi về tiền ảo này.\n    \n    Trong khi đó, trên CNBC, cựu giám đốc quỹ đầu tư Fortress - Michael Novogratz cho rằng đồng tiền này có thể chạm 40.000 USD cuối năm tới. Moas thì khẳng định giá này phải lên 400.000 USD. Sàn Nasdaq còn thông báo kế hoạch tham gia thị trường Bitcoin tương lai trong nửa đầu năm 2018.\n  </div>\n</div>\n<div class=\"my_layout\">\n  <div class=\"div_1\">1</div>\n  <div class=\"div_2\">2</div>\n  <div class=\"div_3\">3</div>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/layout/layout.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LayoutComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var LayoutComponent = (function () {
+    function LayoutComponent() {
+    }
+    LayoutComponent.prototype.ngOnInit = function () {
+    };
+    LayoutComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-layout',
+            template: __webpack_require__("../../../../../src/app/layout/layout.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/layout/layout.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], LayoutComponent);
+    return LayoutComponent;
 }());
 
 
